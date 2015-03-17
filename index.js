@@ -5,7 +5,7 @@ function ensureKeys(json, keys) {
   var emptyKeys = [];
   keys.forEach(function(k) {
     var v = get(json, k);
-    if(undefined === v) {
+    if(v === undefined || v === null || v === '') {
       emptyKeys.push(k);
     }
   });

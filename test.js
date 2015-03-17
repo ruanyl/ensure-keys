@@ -1,6 +1,6 @@
 'use strict';
 var test = require('ava');
-var ensureKey = require('./');
+var ensureKeys = require('./');
 
 test(function (t) {
   var json = {
@@ -11,5 +11,5 @@ test(function (t) {
       age: 1
     }
   }
-  t.assert(ensureKey(json, ['name', 'job', 'child.name']).join('') == ['job'].join(''));
+  t.assert(ensureKeys(json, ['name', 'job', 'child.name']).join('') == ['job'].join(''));
 });
