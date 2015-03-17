@@ -1,0 +1,27 @@
+{
+  "name": "ensure-key",
+  "version": "0.0.1",
+  "description": "ensure a json has specific keys",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ruanyl/ensure-key"
+  },
+  "keywords": [
+    "ensure keys json"
+  ],
+  "author": "Yulong Ruan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruanyl/ensure-key/issues"
+  },
+  "homepage": "https://github.com/ruanyl/ensure-key",
+  "dependencies": {
+    "ava": "0.0.4",
+    "get-value": "^1.1.1"
+  },
+  "devDependencies": {}
+}
