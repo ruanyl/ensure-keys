@@ -11,5 +11,7 @@ test(function (t) {
       age: 1
     }
   }
-  t.assert(ensureKeys(json, ['name', 'job', 'child.name']).join('') == ['job'].join(''));
+  ensureKeys(json, ['name', 'job', 'child.name'], function(val) {
+    t.assert(val === 'job');
+  });
 });

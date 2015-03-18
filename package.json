@@ -1,6 +1,6 @@
 {
   "name": "ensure-keys",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "ensure a json has specific keys",
   "main": "index.js",
   "scripts": {
